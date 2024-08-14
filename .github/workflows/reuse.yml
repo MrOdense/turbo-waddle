@@ -1,5 +1,5 @@
 name: Reuse other workflow
-on: push
+on: [workflow_dispatch]
 jobs: 
   call-workflow:
     uses: ./.github/workflows/reusable.yml
