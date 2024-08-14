@@ -72,4 +72,3 @@ jobs:
         path: .
     - name: Execute performance test
       run: bash ci/performance-test.sh
-    
